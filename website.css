@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{  box-sizing: border-box;
+}
+html {
+    background-color: hsl(208, 60%, 84%);
+    font-size: 12px;
+    font-family: sans-serif
+}
+body{
+    margin: 0;
+    padding: 15px;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header{
+    padding: 25px;
+}
+.navbar{
+    background-color: hsl(210, 3%, 38%);
+    height: 50px;
+}
+nav {
+    box-shadow: 0 0 12px -2px black;
+    /* position: fixed; */
+    left: 0;
+    right: 0;
+    align-items: center;
+    background-color: #333333;
+    color: aliceblue;
+    display: flex;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+ }
+ a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: x-large;
+    margin: 0 5px;
+ }
+
+main {
+    min-height: 50vh;
+    padding: 85px 24px 96px;
+    font-size: 25px;
+  }  
+aside{
+    width: 16%;
+    float: right;
+   
+    padding:5px;
+}
+section{
+    width: 42%;
+    float: left;
+    justify-content: left;
+    padding:10px;
+}
+article{
+    width: 42%;
+    float: left;
+    padding:10px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: hsl(204, 17%, 71%);
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }   
+}
