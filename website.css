@@ -39,13 +39,6 @@ nav {
     margin: 0 5px;
  }
 
- .a {
-    color: black;
-    text-decoration: none;
-    font-size: large;
-    margin: 0 5px;
- }
-
 main {
     min-height: 50vh;
     padding: 85px 24px 96px;
