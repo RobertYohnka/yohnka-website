@@ -50,8 +50,14 @@ aside{
    
     padding:5px;
 }
-section{
-    width: 42%;
+/* section{ */
+    /* width: 42%; */
+    /* float: left; */
+    /* justify-content: left; */
+    /* padding:10px; */
+/* } */
+.section{
+    width: 100%;
     float: left;
     justify-content: left;
     padding:10px;
